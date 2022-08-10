@@ -1,0 +1,579 @@
+                        /* ****************Loading**********************/
+
+                    
+                        .lds-facebook {
+                            display: inline-block;
+                            position: relative;
+                            width: 80px;
+                            height: 80px;
+                          }
+                          .lds-facebook div {
+                            display: inline-block;
+                            position: absolute;
+                            left: 8px;
+                            width: 16px;
+                            background: #1A4990;
+                            animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+                          }
+                          .lds-facebook div:nth-child(1) {
+                            left: 8px;
+                            animation-delay: -0.24s;
+                          }
+                          .lds-facebook div:nth-child(2) {
+                            left: 32px;
+                            animation-delay: -0.12s;
+                          }
+                          .lds-facebook div:nth-child(3) {
+                            left: 56px;
+                            animation-delay: 0;
+                          }
+                          @keyframes lds-facebook {
+                            0% {
+                              top: 8px;
+                              height: 64px;
+                            }
+                            50%, 100% {
+                              top: 24px;
+                              height: 32px;
+                            }
+                          }
+                         /* ****************Loading**********************/
+               
+               
+               body{
+                    border: 0;
+                    margin: 0;
+                    /* overflow-x: hidden; */
+                }
+
+                    a{text-decoration: none;}
+                    
+                    a:focus, a:hover {
+                        text-decoration: none;
+                    }
+                    
+                    
+                    body{margin: 0;}
+                    ul{list-style: none;}
+                    
+
+                        /* **************** background **********************/
+                        .background-section{ 
+                            width: 100%;
+                            height: 20vh;}
+                        
+                            .background-div-img {
+                                background-color: #1A4990;
+                                background-position-y: center;
+                                height: 100%;
+                                width: 100%;
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: center;
+                                align-items: center;
+                                align-content: center;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                            }
+                        
+                            .background-div-text-R {
+                                height: 100%;
+                                position: relative;
+                                width: 33%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: flex-end;
+                            }
+
+                            .background-div-text-M{
+                                height: 100%;
+                                position: relative;
+                                width: 33%;
+                                display: flex;
+                                justify-content: center;
+
+
+                            }
+                            .background-div-text-L{
+                                height: 100%;
+                                position: relative;
+                                width: 33%;
+                                display: flex;
+                                justify-content: center; 
+                            }
+
+
+                        
+                            .background-text {
+                                margin: 0;
+                                color: white;
+                                font-family: 'Bebas Neue', cursive;
+                                font-size: 40px;
+                            }
+
+                            .background-div-line{
+                                width: 100%;
+                                height: 5vh;
+                                background-color: #1A4990;
+                            }
+
+                            
+                            /* **************** img **********************/                            
+                            .background-div-section{
+                                width: 100%;
+                                position: relative;
+
+                            }
+                            .background-div-lineX {
+                                width: 100%;
+                                background-color: #1A4990;
+                                height: 60px;
+                                position: absolute;
+                                z-index: -1;
+                            }
+                            .background-div {
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-evenly;
+                                flex-wrap: wrap;
+                            }
+                            .CATALOG-div{
+                                height: 490px;
+                                width: 350px;
+                                margin-bottom: 40px;
+                            }
+                            .CATALOG-text {
+                                width: 100%;
+                                height: 60px;
+                                background-color: white;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            .CATALOG-img {
+                                width: 350px;
+                                height: 350px;
+                                display: flex;
+                            }
+                            .CATALOG-img a {
+                                width: 100%;
+                                height: 100%;
+                                display: flex;
+                                overflow: hidden;
+
+                            }
+                            .img-CATALOG{
+                                transition: all 0.2s;
+                            }
+
+
+
+
+
+                            .CATALOG-B {
+                                width: 100%;
+                                height: 80px;
+                                display: flex;
+                                flex-direction: row;
+                                align-content: stretch;
+                                justify-content: space-between;
+                                align-items: flex-end;
+                            }
+                            .CATALOG-text p{
+
+                                margin: 0;
+                                font-size: 25px;
+                                font-family: 'Bebas Neue', cursive;
+                                color: #333;
+
+
+                            }
+                            .CATALOG-B-text-div{
+                                width: 100%;
+                                height: 50px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                background-color: #1A4990;
+                                transition: all 0.3s;
+                            }
+                            .CATALOG-B-text-div p{
+                                margin: 0;
+                                font-size: 25px;
+                                font-family: 'Bebas Neue', cursive;
+                                color: rgb(255, 255, 255);
+                                transition: all 0.3s;
+                            }
+                            .CATALOG-div-text-img{
+                                box-shadow: 0px 0px 20px #000000;
+                            }
+                            .CATALOG-B a {
+                                width: 50%;
+                                height: 100%;
+                                display: flex;
+                                align-items: flex-end;
+                            }
+
+                            .lang-set {
+                                width: 100%;
+                                display: flex;
+                            }
+
+
+                            .img-CATALOG:hover {transform: scale(1.1);}
+                            
+                            .CATALOG-B-text-div:hover {background-color: #1d5dbd;}
+                            
+                            .CATALOG-B-text-div:hover .text-CATALOG {color: #333;}
+                            
+
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            /* **************** background phone **********************/
+
+                            @media only screen and (max-width: 1000px) {
+
+                                .background-div-text-L{
+                                    display: none;
+                                }
+
+                                .background-text {
+                                    font-size: 40px;
+                                }
+
+
+                            }
+
+
+
+
+
+
+
+
+            /* ****************footer**********************/
+            footer{
+                width: 100%;
+                height: 420px;
+                background-color: #4B4B4B;
+                display: flex;
+                flex-direction: row;
+            }
+            
+            .footer-L{
+                width: 50%;
+                height: 100%;
+                display: flex;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+            }
+            .footer-R{
+                height: 100%;
+                width: 50%;
+                display: flex;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+            }
+            .footer-R-M {
+                height: 70%;
+                width: 80%;
+                display: flex;
+                justify-content: space-evenly;
+                position: relative;
+                right: -84px;
+            }
+            .footer-L-M{
+                height: 70%;
+                width: 80%;
+                position: relative;
+                right: 50px;
+
+            }
+            .footer-R-L{
+                height: 100%;
+                width: 33%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            .footer-R-M-TEXT-DIV{
+                width: 100%;
+                height: 20%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .footer-R-S-TEXT-DIV{
+                width: 100%;
+                height: 14%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .footer-R-M-TEXT{
+                margin: 0;
+                font-size: 25px;
+                font-family: 'Bebas Neue', cursive;
+                color: white;
+
+            }
+            .footer-R-S-TEXT{
+                margin: 0;
+                font-size:0.8vw;
+                color: white;
+            }
+            .footer-M-line{
+                height: 80%;
+                width: 2px;
+                background-color: white;
+                align-self: center;
+            }
+            .footer-Conact-DIV {
+                height: 80%;
+                width: 100%;
+                display: flex;
+            }
+            .footer-social-DIV{
+                height: 20%;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+            }
+            .footer-social-TEXT-DIV {
+                width: 20%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .footer-social-IMG-DIV-M {
+                width: 80%;
+                display: flex;
+                height: 100%;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                align-content: center;
+            }
+
+            .footer-social-img-M{
+                height: 80%;
+
+            }
+            
+            
+            
+            .footer-social-IMG {
+                height: 40px;
+                background-color: rgb(255, 255, 255);
+                width: 40px;
+                margin-right: 20px;
+                display: flex;
+                justify-content: center;
+                border-radius: 150px;
+                overflow: hidden;
+                align-content: center;
+                align-items: center;
+            }
+            .footer-social-IMG a {
+                height: 40px;
+                background-color: rgb(255, 255, 255);
+                width: 40px;
+                display: flex;
+                justify-content: center;
+                border-radius: 150px;
+                overflow: hidden;
+                align-content: center;
+                align-items: center;
+            }
+            
+                .footer-social-TEXT{
+                margin: 0;
+                font-size: 25px;
+                color: white;
+                font-family: 'Bebas Neue', cursive;
+            }
+            .footer-Conact-TEXT-DIV {
+                height: 100%;
+                width: 20%;
+                display: flex;
+                justify-content: space-evenly;
+                position: relative;
+                top: 20px;
+            }
+            .footer-Conact-img-text-DIV {
+                height: 100%;
+                width: 80%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
+            .footer-Conact-M-TEXT{
+                margin: 0;
+                font-size: 25px;
+                color: white;
+                font-family: 'Bebas Neue', cursive;
+            }
+            .footer-Conact-TEXT-DIV-S {
+                width: 100%;
+                height: 20%;
+                display: flex;
+                justify-content: space-between;
+            }
+            .footer-Conact-TEXT-DIV-S-S {
+                height: 100%;
+                width: 40%;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                align-content: space-around;
+            }
+            .footer-Conact-img-S-DIV {
+                height: 30px;
+                width: 30px;
+                border-radius: 150%;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                background-color: white;
+                align-items: center;
+            }
+            .footer-Conact-img-SS{
+                height: 80%;
+            }
+            .footer-Conact-TEXT-SS {
+                color: white;
+                font-size: 0.91vw;
+                margin: 0%;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            .footer-Conact-TEXT-DIV-S-E {
+                height: 20%;
+                width: 100%;
+                display: flex;
+                align-content: center;
+                justify-content: flex-start;
+                align-items: center;
+                align-self: center;
+            }
+            .footer-Conact-img-S-DIV-E{
+                height: 30px;
+                width: 30px;
+                border-radius: 150%;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                background-color: white;
+                align-items: center;
+            }
+            .footer-Conact-img-SS-E{
+                height: 80%;
+            }
+
+            .footer-Conact-TEXT-SS-E{
+                color: white;
+                font-size: 0.66vw;
+                margin: 0%;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            /* ****************footer hover**********************/
+            .footer-R-M-TEXT-DIV:hover .footer-R-M-TEXT {transform: scale(1.1);}
+            
+            .footer-R-S-TEXT-DIV:hover .footer-R-S-TEXT {transform: scale(1.1);}
+            
+
+
+
+
+
+
+
+
+            /* ****************footer phone**********************/
+
+
+            @media only screen and (max-width: 1000px) {
+
+
+                footer{
+                    height: 300px;
+                }
+                .footer-M-line{display: none;}
+
+                .footer-R{display: none;}
+
+                .footer-L{
+                    width: 100%;
+
+                }
+                .footer-Conact-TEXT-SS{
+                    font-size: 2.5vw;
+
+                }
+                .footer-Conact-TEXT-SS-E{
+                    font-size: 1.55vw;
+                }
+                .footer-L-M {
+                    height: 70%;
+                    width: 100%;
+                    position: relative;
+                    right: auto;
+                }
+                .footer-Conact-img-S-DIV{
+                    height: 30px;
+                    width: 30px;
+                }
+                .footer-Conact-img-S-DIV-E{
+                    width: 30px;
+                    height: 30px;
+                }
+                .footer-social-IMG{
+                    width: 40px;
+                    height: 40px;
+                }
+                .footer-Conact-TEXT-DIV{
+                    top: auto;
+                }
+                .footer-Conact-TEXT-DIV-S-S{
+                    width: 49%;
+                }
+                .footer-Conact-M-TEXT {
+                    margin: 0;
+                    font-size: 25px;
+                    color: white;
+                    font-family: 'Bebas Neue', cursive;
+                    position: relative;
+                    top: 7%;
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            }
